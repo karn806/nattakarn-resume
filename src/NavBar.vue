@@ -8,7 +8,7 @@
       <md-layout></md-layout>
       <md-layout>
         <md-button @click.native="toggleLeftSidenav">
-          <md-icon>menu</md-icon>Contact
+          <md-icon><i class="material-icons">perm_contact_calendar</i></md-icon>Contact
         </md-button>
 
         <md-sidenav class="md-left" ref="leftSidenav" @open="open('Left')" @close="close('Left')">

@@ -7,13 +7,13 @@
       </md-layout>
     </div>
     <md-card class="card-container">
-      <md-tabs md-right>
+      <md-tabs md-right id="bg-content">
         <md-tab md-label="EN">
           <my-content></my-content>
         </md-tab>
-        <md-tab md-label="TH">
+        <!-- <md-tab md-label="TH">
           <thai-content></thai-content>
-        </md-tab>
+        </md-tab> -->
       </md-tabs>
     </md-card>
     <div id="foot">
@@ -49,8 +49,11 @@ export default {
   font-size: 60px;
   color: #00838F;
 }
+#bg-content {
+  background-color: #F0EFEB;
+}
 .card-container {
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 .top-row {
