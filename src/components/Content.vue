@@ -81,6 +81,41 @@
           <div id="myBar" style="width: 50%;"></div>
         </div>
       </ul>
+      <br><br>
+      <md-divider></md-divider><br>
+      <br>
+      <div class="repo">
+        <b>Repositories</b><br>
+        <md-layout :md-gutter="8">
+          <md-layout>
+            <span></span>
+          </md-layout>
+
+          <md-layout>
+            <span></span>
+          </md-layout>
+
+          <md-layout md-align="end">
+            <md-button href="https://github.com/karn806" style="width:40px; height:40px;">
+              <img src="static/icons/github.png" style="width: 40px;">
+            </md-button>
+          </md-layout>
+
+          <md-layout md-align="left">
+            <md-button href="https://bitbucket.com/karn806" style="width:40px; height:40px;">
+              <img src="static/icons/bitbucket.png" style="width: 40px;">
+            </md-button>
+          </md-layout>
+
+          <md-layout>
+            <span></span>
+          </md-layout>
+
+          <md-layout>
+            <span></span>
+          </md-layout>
+        </md-layout>
+      </div>
     </ul>
     <br>
   </div>
@@ -113,5 +148,8 @@ export default {
 }
 .icon-color {
   color: #F37532;
+}
+.repo {
+ text-align: center;
 }
 </style>
